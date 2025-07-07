@@ -26,7 +26,7 @@ const projects = [
       "Machine learning analysis of Canadian household data identified three distinct behavioral clusters—Suburban Essentials, Stable Retirees, and Affluent Professionals—and achieved 89% prediction accuracy for long-term financial contributions using XGBoost with SHAP-based interpretation.",
     tags: [
       "PCA", "UMAP", "KMeans", "XGBoost", "ElasticNet", "SHAP",
-      "Polars", "Scikit-Learn", "Data Clustering", "Regression"
+      "Polars", "Scikit-Learn", "Data Clustering", "Feature Selection", "Regression"
     ],
     github: "https://github.com/noahkostesku/CanadianHouseholdAnalysis",
     demo: "",
@@ -51,11 +51,22 @@ const projects = [
     description:
       "A full-stack educational platform with step-by-step math lessons and animated 3D visuals to enhance student understanding. Built with Three.js for immersive front-end experiences and connected to a PHP/SQL backend for lesson management and user tracking.",
     tags: ["Manim","Three.js", "PHP", "SQL", "EdTech", "Animation"],
-    github: "https://github.com/noahkostesku/mathimaticate", 
+    github: "https://github.com/noahkostesku/Mathematicate", 
     demo: "https://your-mathimaticate-demo.com", // Add your demo URL here
     image: "", // replace image with video demo
     video: "/videos/mathimaticate-demo.mp4", // Add your video file here
     youtube: "https://www.youtube.com/@Mathimaticate", // Add your YouTube link here
+  },
+  {
+    title: "Componential Analysis of Deep Neural Networks",
+    subtitle: "From-Scratch Neural Network Implementation",
+    description:
+      "Engineered a deep neural network from scratch using only NumPy and foundational Python libraries, achieving 99% accuracy in digit recognition without pre-built ML frameworks. Implemented comprehensive analyses of neural network mathematics including forward propagation, backpropagation, dropout regularization, and cost function optimization. Built on MNIST dataset with advanced features like He initialization, L2 regularization, and learning rate decay.",
+    tags: ["Deep Neural Networks", "Python", "From Scratch", "Mathematical Analysis"],
+    github: "https://github.com/noahkostesku/Deep-Neural-Networks-and-CNNs", 
+    demo: "",
+    image: "/images/DNN.png",
+    video: "",
   }
 ]
 
@@ -245,7 +256,11 @@ export default function Projects() {
                       <img
                         src={project.image || "/placeholder.svg"}
                         alt={project.title}
-                        className={`w-full h-full object-cover transition-all duration-700 ${
+                        className={`w-full h-full transition-all duration-700 ${
+                          project.title === "Componential Analysis of Deep Neural Networks"
+                            ? "object-contain grayscale-0"
+                            : "object-cover"
+                        } ${
                           project.title === "Self-Corrective RAG" || project.title === "Household Economic Pattern Analysis"
                             ? "grayscale-0 filter hue-rotate-0" 
                             : "grayscale group-hover:grayscale-0"
