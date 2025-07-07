@@ -43,7 +43,7 @@ export default function Portfolio() {
       <div className="relative z-10">
         <Navigation />
 
-        <main className="max-w-7xl 2xl:max-w-8xl mx-auto">
+        <main className="max-w-7xl 2xl:max-w-8xl mx-auto pt-24 lg:pt-32">
           {/* Hero Section with Orb Background */}
           <section className="relative">
             <div className="absolute inset-0 z-0">
