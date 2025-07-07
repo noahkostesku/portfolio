@@ -1,5 +1,7 @@
 # Portfolio
 
+> Below is a small snippet of my portfolio
+
 ![Portfolio Demo](./public/videos/portfolio_snippet.gif)
 
 ## Tech Stack
