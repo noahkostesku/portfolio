@@ -190,7 +190,7 @@ export default function Projects() {
                       <svg className="w-5 h-5 xl:w-6 xl:h-6 group-hover:text-red-500" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M23.498 6.186a2.994 2.994 0 0 0-2.107-2.12C19.163 3.5 12 3.5 12 3.5s-7.163 0-9.391.566A2.994 2.994 0 0 0 .502 6.186C0 8.418 0 12 0 12s0 3.582.502 5.814a2.994 2.994 0 0 0 2.107 2.12C4.837 20.5 12 20.5 12 20.5s7.163 0 9.391-.566a2.994 2.994 0 0 0 2.107-2.12C24 15.582 24 12 24 12s0-3.582-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
                       </svg>
-                      <span className="font-mono text-sm xl:text-base">View More Tutorials</span>
+                      <span className="font-mono text-sm xl:text-base">View Math Tutorials</span>
                       <ArrowUpRight className="w-4 h-4 xl:w-5 xl:h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform group-hover:text-red-500" />
                     </motion.a>
                   )}
