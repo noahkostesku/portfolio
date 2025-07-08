@@ -40,7 +40,7 @@ export default function Navigation() {
   }, [])
 
   const handleNavClick = (href: string) => {
-    console.log("Nav click triggered:", href) // Debug log
+    console.log("Nav click triggered:", href)
     setMobileMenuOpen(false)
 
     // Handle scroll to top for logo click
@@ -54,7 +54,7 @@ export default function Navigation() {
       // Smooth scroll to section with offset for fixed navbar
       const element = document.querySelector(href)
       if (element) {
-        const offset = 120 // Account for fixed navbar height
+        const offset = 120
         const elementPosition = element.getBoundingClientRect().top
         const offsetPosition = elementPosition + window.pageYOffset - offset
 
@@ -63,7 +63,6 @@ export default function Navigation() {
           behavior: "smooth",
         })
       } else {
-        // Fallback: try to find the element by ID without the #
         const sectionId = href.replace("#", "")
         const fallbackElement = document.getElementById(sectionId)
         if (fallbackElement) {
@@ -77,7 +76,7 @@ export default function Navigation() {
           })
         }
       }
-    }, 100) // Small delay to let menu close
+    }, 100)
   }
 
   // Close mobile menu when clicking outside

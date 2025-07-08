@@ -104,7 +104,7 @@ export default function Hero() {
             </motion.div>
           </motion.div>
 
-          {/* Right side - Profile image - Redesigned */}
+          {/* Right side - Profile image*/}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             animate={{ opacity: 1, x: 0 }}
@@ -149,7 +149,6 @@ export default function Hero() {
               >
                 <div className="w-5 h-5 rounded-full bg-pink-400/40 blur-lg shadow-lg" />
               </motion.div>
-              {/* Main container - Changed to rectangular with rounded corners */}
               <div className="relative w-80 h-96 md:w-96 md:h-[28rem] xl:w-[28rem] xl:h-[32rem] 2xl:w-[32rem] 2xl:h-[36rem]">
                 {/* Ambient background glow */}
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 via-purple-500/10 to-transparent rounded-3xl blur-3xl"></div>

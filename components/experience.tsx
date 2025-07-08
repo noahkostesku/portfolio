@@ -34,7 +34,7 @@ const experiences = [
     description: "Led the redesign of Fund Homecare Canada’s website, transitioning from WordPress to a React-based frontend to improve maintainability and user experience for families seeking in-home palliative care.",
     achievements: [
       "Managed an Agile team using Jira, GitHub Actions, and Scrum to deliver a production-ready site under tight deadlines.",
-      "Led two cross-functional Agile teams (7 developers total), leveraging Jira and GitHub Actions to boost delivery velocity by 30% across consecutive sprints",
+      "Led two cross-functional Agile teams (7 developers total), leveraging Jira and GitHub Actions to boost delivery velocity by 30% across consecutive sprints.",
       "Strengthened stakeholder alignment and communication to ensure high-impact delivery in a real-world nonprofit setting."
     ],
   },
