@@ -15,8 +15,8 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Noah Kostesku - Digital Architect",
-  description: "Crafting innovative digital solutions with a focus on user experience and scalable architecture.",
+  title: "Noah Kostesku - Ai Researcher | Builder",
+  description: "Crafting the future of AI-driven experiences.",
     generator: 'v0.dev'
 }
 
