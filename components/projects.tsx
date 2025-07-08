@@ -13,8 +13,8 @@ const projects = [
     tags: ["Typescript", "React", "Local LLMs", "Next.js"],
     github: "https://github.com/noahkostesku/RepoChat",
     demo: "https://neural-canvas.vercel.app",
-    image: "/placeholder.svg?height=400&width=600",
-    video: "/videos/repo-chat-demo.mp4", // Add your video file here
+    image: "",
+    video: "/videos/repo-chat-demo.mp4",
     featured: true,
     beta: true,
     releaseStatus: "Full Version Coming Soon",
@@ -41,9 +41,9 @@ const projects = [
       "An AI-driven knowledge retrieval system that scrapes and summarizes Wikipedia topics, integrates LangChain pipelines, and uses GPT-4 to iteratively improve generated outputs through self-correction.",
     tags: ["LangChain", "GPT-4", "Flask", "ChromaDB", "Wikipedia API"],
     github: "https://github.com/noahkostesku/Self-Corrective-RAG-Chatbot-with-Wikipedia-Scraping/tree/main", 
-    demo: "", // no video demo icon
+    demo: "", 
     image: "/images/scrag.png",
-    video: "", // no video demo
+    video: "",
   },
   {
     title: "Mathimaticate",
@@ -52,10 +52,10 @@ const projects = [
       "A full-stack educational platform with step-by-step math lessons and animated 3D visuals to enhance student understanding. Built with Three.js for immersive front-end experiences and connected to a PHP/SQL backend for lesson management and user tracking.",
     tags: ["Manim","Three.js", "PHP", "SQL", "EdTech", "Animation"],
     github: "https://github.com/noahkostesku/Mathematicate", 
-    demo: "https://your-mathimaticate-demo.com", // Add your demo URL here
-    image: "", // replace image with video demo
-    video: "/videos/mathimaticate-demo.mp4", // Add your video file here
-    youtube: "https://www.youtube.com/@Mathimaticate", // Add your YouTube link here
+    demo: "https://your-mathimaticate-demo.com",
+    image: "", 
+    video: "/videos/mathimaticate-demo.mp4",
+    youtube: "https://www.youtube.com/@Mathimaticate",
   },
   {
     title: "Componential Analysis of Deep Neural Networks",

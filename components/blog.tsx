@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import { Calendar, Clock, ArrowRight } from "lucide-react"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 
 const categories = ["All", "AI", "Prompt Engineering", "Thoughts"]
 
@@ -203,6 +203,18 @@ export default function Blog() {
   const [selectedCategory, setSelectedCategory] = useState("All")
   const [selectedPost, setSelectedPost] = useState<string | null>(null)
 
+  // Scroll to top when a post is opened
+  useEffect(() => {
+    if (selectedPost) {
+      const el = document.getElementById("blog-title")
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth" })
+      } else {
+        window.scrollTo({ top: 0, behavior: "smooth" })
+      }
+    }
+  }, [selectedPost])
+
   const filteredPosts = selectedCategory === "All" ? posts : posts.filter((post) => post.category.includes(selectedCategory))
 
   const currentPost = selectedPost ? posts.find((post) => post.id === selectedPost) : null
@@ -257,7 +269,7 @@ export default function Blog() {
                   .split("\n")
                   .map((line) => {
                     if (line.startsWith("# ")) {
-                      return `<h1 class="text-4xl font-light mb-6 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">${line.slice(2)}</h1>`
+                      return `<h1 id="blog-title" class="text-4xl font-light mb-6 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">${line.slice(2)}</h1>`
                     }
                     if (line.startsWith("## ")) {
                       return `<h2 class="text-2xl font-light mt-8 mb-4 text-gray-200">${line.slice(3)}</h2>`
