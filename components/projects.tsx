@@ -10,7 +10,7 @@ const projects = [
     subtitle: "AI-Powered Web Scraping",
     description:
       "A local AI-powered tool that generates tailored coffee chat questions and GitHub repository summaries from developer profiles.",
-    tags: ["Typescript", "React", "Local LLMs", "Next.js"],
+    tags: ["Typescript", "React", "Vite", "Next.js", "Tailwind CSS","Chrome Extension APIs", "Local LLMs", "Playwright"],
     github: "https://github.com/noahkostesku/RepoChat",
     demo: "https://neural-canvas.vercel.app",
     image: "",
@@ -24,9 +24,8 @@ const projects = [
     subtitle: "Clustering & Prediction on Canadian Spending",
     description:
       "Machine learning analysis of Canadian household data identified three distinct behavioral clusters—Suburban Essentials, Stable Retirees, and Affluent Professionals—and achieved 89% prediction accuracy for long-term financial contributions using XGBoost with SHAP-based interpretation.",
-    tags: [
-      "PCA", "UMAP", "KMeans", "XGBoost", "ElasticNet", "SHAP",
-      "Polars", "Scikit-Learn", "Data Clustering", "Feature Selection", "Regression"
+    tags: ["Polars", "Feature Selection", "PCA", "UMAP", "Data Clustering",
+        "KMeans", "Regression", "ElasticNet","XGBoost","SHAP","Scikit-Learn"
     ],
     github: "https://github.com/noahkostesku/CanadianHouseholdAnalysis",
     demo: "",

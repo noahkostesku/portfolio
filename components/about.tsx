@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 import { BrainCircuit, Brain, Palette, Database, Waypoints, Computer } from "lucide-react"
 
 const skills = [
-  { name: "Artificial Intelligence", icon: BrainCircuit, description: "LangChain, LangGraph, HuggingFace, Xodo, Prompt Engineering"},
+  { name: "Artificial Intelligence", icon: BrainCircuit, description: "LangChain, LangGraph, HuggingFace, Qodo, Prompt Engineering"},
   { name: "Machine Learning", icon: Brain, description: "PyTorch, TensorFlow, Transformers, Scikit-learn, Polars" },
   { name: "Deep Learning", icon: Waypoints, description: "Graph Attention Networks, Deep Neural Networks, Convolutional Neural Networks, Keras" },
   { name: "GPU & High Performance Computing", icon: Computer, description: "CUDA, PyTorch GPU, JupyterLab on Clusters, Data Parallelism" },
