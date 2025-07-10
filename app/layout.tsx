@@ -3,6 +3,7 @@ import type { Metadata } from "next"
 import { Inter, JetBrains_Mono } from "next/font/google"
 import "./globals.css"
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from '@vercel/analytics/react'
 
 const inter = Inter({
   subsets: ["latin"],
@@ -29,6 +30,7 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable}`}>
       <body className="font-sans antialiased">
         {children}
+        <Analytics />
         <SpeedInsights />
       </body>
     </html>
