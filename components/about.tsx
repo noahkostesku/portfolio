@@ -37,18 +37,10 @@ export default function About() {
           >
             <div className="space-y-6 xl:space-y-8 text-gray-300 leading-relaxed">
               <p className="text-xl xl:text-2xl font-light">
-                I'm an AI engineer who believes in the transformative power of intelligent systems and human-centered
-                design.
+                I'm an AI engineer building intelligent systems that actually make a difference. Startups and business tech? That's my game.
               </p>
               <p className="text-lg xl:text-xl">
-                My work focuses on building AI solutions that don't just process data, but understand context and
-                enhance human capabilities. From machine learning models to neural networks, I create systems that
-                learn, adapt, and evolve.
-              </p>
-              <p className="text-lg xl:text-xl">
-                When I'm not training models or optimizing algorithms, you'll find me exploring the latest in generative
-                AI, contributing to open source ML projects, or researching the intersection of artificial intelligence
-                and human creativity.
+                I build AI solutions that understand context and enhance human capabilities from machine learning models to neural networks that learn, adapt, and evolve. On LinkedIn, I've grown to 8k followers reaching 2M+ people, sharing insights on personal growth, startups, and gen-z as a whole.
               </p>
             </div>
 

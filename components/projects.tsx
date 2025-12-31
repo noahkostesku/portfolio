@@ -89,12 +89,9 @@ export default function Projects() {
           className="text-center mb-20 xl:mb-32"
         >
           <h2 className="text-5xl md:text-6xl xl:text-7xl 2xl:text-8xl font-light mb-6 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
-            Selected Work
+            Projects
           </h2>
           <div className="w-24 h-px bg-gradient-to-r from-transparent via-gray-400 to-transparent mx-auto"></div>
-          <p className="text-gray-400 mt-8 text-lg xl:text-xl 2xl:text-2xl font-light max-w-2xl xl:max-w-3xl mx-auto">
-            A curated collection of AI and software projects that showcase innovation and technical excellence
-          </p>
         </motion.div>
 
         <div className="space-y-32 xl:space-y-40">

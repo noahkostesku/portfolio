@@ -6,7 +6,7 @@ import { useEffect, useState } from "react"
 export default function Hero() {
   const [text, setText] = useState("")
   const [showSubtext, setShowSubtext] = useState(false)
-  const fullText = "AI Researcher | Builder"
+  const fullText = "AI Researcher | Startups"
 
   useEffect(() => {
     let i = 0
@@ -76,9 +76,9 @@ export default function Hero() {
               className="space-y-8 xl:space-y-12"
             >
               <p className="text-lg md:text-xl xl:text-2xl text-gray-400 max-w-xl xl:max-w-2xl leading-relaxed font-light">
-                Building intelligent systems that bridge the gap between human intuition and machine precision.
+                I like AI, startups, business, and tech. I also just love building, and building relationships.
                 <br />
-                Crafting the future of AI-driven experiences.
+                Let's make stuff happen.
               </p>
 
               <div className="flex space-x-8 xl:space-x-12">

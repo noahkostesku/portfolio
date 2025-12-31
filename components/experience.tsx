@@ -4,9 +4,19 @@ import { motion } from "framer-motion"
 
 const experiences = [
   {
+    title: "Researcher",
+    company: "Lapis Labs (YC F25)",
+    period: "Nov 2025 - Jan 2026",
+    description: "Researched and developed AI agent-driven SEO solutions shaping the future of business growth at a Y Combinator-backed startup.",
+    achievements: [
+      "Scaled social media followers by 150% and led growth initiatives across 3 domains, driving user acquisition and engagement through data-driven strategies.",
+      "Developed theoretical optimization techniques including canonical embeddings and spectral graph theory to enhance AI search capabilities and improve search ranking algorithms."
+    ],
+  },
+  {
     title: "AI Researcher",
     company: "Banking Analytics Lab",
-    period: "May 2025 - Present",
+    period: "May 2025 - Mar 2026",
     description: "Conducting applied machine learning research focused on credit risk modeling, LLM-based explanation generation, and high-performance computing.",
     achievements: [
       "Built an explainable credit risk model by combining Graph Attention Networks and XGBoost, using GNNExplainer and SHAP to identify key drivers of loan default prediction.",
@@ -19,7 +29,7 @@ const experiences = [
   {
     title: "Vice President, Projects",
     company: "Western Artificial Intelligence",
-    period: "June 2025 – Present",
+    period: "June 2025 – Mar 2026",
     description: "Lead 8 project managers and 25+ developers delivering AI research for CUCAI 2026. Oversee strategy, paper review, and ensure technical, ethical, and legal alignment.",
     achievements: [
       "Directed 12+ CUCAI-selected projects, including: Conversational AI for Law (LangGraph/LangChain), Portfolio Optimization with RL and real-time financial feeds, ECG Classification via agentic LLMs and vector search, and LLM-based Misinformation Detection bots.",
@@ -29,8 +39,18 @@ const experiences = [
   },
   {
     title: "Project Manager",
-    company: "Tech for Social Impact",
-    period: "Dec 2024 – July 2025",
+    company: "World Vision",
+    period: "Sep 2025 - Apr 2026",
+    description: "Led a development team for World Vision International, which supports 200M vulnerable children and families globally, to deliver a custom agentic-ai ideation pipeline on Microsoft Azure, driving scalable innovation and increased ROI.",
+    achievements: [
+      "Architected and deployed a custom agentic-AI ideation pipeline on Microsoft Azure, processing 100s of project proposals monthly and increasing viable innovation ideas through deep agent orchestration and automated evaluation workflows.",
+      "Optimized the DiscoverVision pipeline to reduce ideation-to-deployment time using Azure cloud infrastructure, enabling rapid scaling of successful projects across 100+ countries serving 200M+ beneficiaries."
+    ],
+  },
+  {
+    title: "Project Manager",
+    company: "Fund Homecare Canada",
+    period: "Sept 2024 – July 2025",
     description: "Led the redesign of Fund Homecare Canada’s website, transitioning from WordPress to a React-based frontend to improve maintainability and user experience for families seeking in-home palliative care.",
     achievements: [
       "Managed an Agile team using Jira, GitHub Actions, and Scrum to deliver a production-ready site under tight deadlines.",
